@@ -1,6 +1,6 @@
-# dynamic-application-schema
+# dynamic-application-schema-json
 
-The Core schema used to represent a configuration driven application development experience for the Fathym Forge.
+The Core schema used to represent a configuration driven application development experience for Enterprises.
 
 ![Logo of the project](/public/img/logo.png)
 
@@ -10,83 +10,17 @@ The Dynamic Application Schema supports a configuration driven development exper
 
 ## Installing / Getting started
 
-This repository contains the dynamic application schema definitions in multiple serialization formats.  To get started install the dynamic-application-schema:
+This repository contains the dynamic application schema definitions for JSON.  To get started with JSON install the dynamic-application-schema:
 
 ```shell
-npm install @fathym-forge/dynamic-application-schema
+npm install @fathym-forge/daf-schema-json
 ```
 
 This will install the package locally to your system for consumption in your project.
 
-### JSON Schema Quick Start
+### JSON Schema Usage
 
-Information about using the JSON Schema Definition
-
-### TypeScript Quick Start
-
-Information about using the Type Script Definition
-
-### Proto Buffers Quick Start
-
-Information about using the Proto Buffer Definition
-
-#### Windows Users Setup
-
-Using Chocolatey, you can very quickly get started in compiling the Proto Buffer specs into the language of your choosing.  
-
-Using Visual Studio Code (running in administrator mode), start by opening in a terminal:
-
-```shell
-Ctrl+`
-```
-
-In the open terminal window (or a cmd shell), ensure Chocolatey is installed on your machine by executing this from an Administrator cmd shell:
-
-```shell
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-```
-
-* For up to date Chocolatey installation instructions, visit: <https://chocolatey.org/docs/installation>
-
-Once Chocolatey is installed, it can be used to quickly install the Proto Buffers compiler:
-
-```shell
-choco install protoc
-```
-
-* Additional details can be found [here](https://chocolatey.org/packages/protoc).
-
-To confirm installation of the Proto Buffers Compiler execute:
-
-```shell
-protoc --version
-```
-
-#### Linux Users Setup
-
-TODO
-
-#### Mac Users Setup
-
-TODO
-
-#### Compiling Proto Buffer Definitions
-
-The Proto Buffer defintions are located in a 'proto' folder at the root of the project.  Change into that directory:
-
-```shell
-cd proto
-```
-
-To compile definitions for specific file that use a CommonJS based JavaScript project, utilize the following command:
-
-```shell
-protoc --js_out=import_style=commonjs,binary:"..\..\dist\proto\js\common *.proto
-```
-
-TODO Get this actually working
-
-For a complete list of supported languages, and instructions on compiling visit: <https://github.com/protocolbuffers/protobuf>
+Information about using the JSON Schema Definition...
 
 ## Features
 
