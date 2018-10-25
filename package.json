@@ -1,12 +1,11 @@
 {
   "name": "@fathym-forge/daf-schema-json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "scripts": {
     "build-deploy": "npm version patch && npm run deploy",
     "deploy": "npm publish --access public"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
